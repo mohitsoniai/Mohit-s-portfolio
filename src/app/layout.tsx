@@ -23,12 +23,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mohit Soni | Azure Cloud, DevOps & Full Stack Engineer",
-  description: "Personal Portfolio of Mohit Soni - Azure Cloud Engineer, DevOps Engineer, Full Stack Developer, and AI Specialist. Crafting next-generation cloud architectures and intelligent web experiences.",
+  title: "Mohit Swarnkar | Azure Cloud, DevOps & Full Stack Engineer",
+  description: "Personal Portfolio of Mohit Swarnkar - Azure Cloud Engineer, DevOps Engineer, Full Stack Developer, and AI Specialist. Crafting next-generation cloud architectures and intelligent web experiences.",
   keywords: [
-    "Mohit Soni",
-    "Mohit Soni AI",
-    "Mohit Soni Portfolio",
     "Mohit Swarnkar",
     "Azure Cloud Engineer",
     "DevOps Engineer",
@@ -39,21 +36,21 @@ export const metadata: Metadata = {
     "Terraform IaC",
     "Next.js Portfolio",
   ],
-  authors: [{ name: "Mohit Soni" }],
-  creator: "Mohit Soni",
+  authors: [{ name: "Mohit Swarnkar" }],
+  creator: "Mohit Swarnkar",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://mohit-s-portfolio.vercel.app",
-    title: "Mohit Soni | Azure Cloud & DevOps Architect",
+    url: "https://mohitswarnkar.dev",
+    title: "Mohit Swarnkar | Azure Cloud & DevOps Architect",
     description: "Architecting enterprise cloud scaling, automated CI/CD infrastructures, and immersive web platforms.",
-    siteName: "Mohit Soni Portfolio",
+    siteName: "Mohit Swarnkar Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mohit Soni | Azure Cloud & DevOps Architect",
+    title: "Mohit Swarnkar | Azure Cloud & DevOps Architect",
     description: "Architecting enterprise cloud scaling, automated CI/CD infrastructures, and immersive web platforms.",
-    creator: "@mohitsoniai",
+    creator: "@mohitswarnkar",
   },
   robots: {
     index: true,
@@ -78,10 +75,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "Mohit Soni",
-              "url": "https://mohit-s-portfolio.vercel.app",
+              "name": "Mohit Swarnkar",
+              "url": "https://mohitswarnkar.dev",
               "sameAs": [
-                "https://github.com/mohitsoniai",
+                "https://github.com/mohitswarnkar",
                 "https://linkedin.com/in/mohitswarnkar"
               ],
               "jobTitle": "Azure Cloud & DevOps Engineer",
@@ -89,7 +86,7 @@ export default function RootLayout({
                 "@type": "Organization",
                 "name": "Parul University"
               },
-              "description": "Personal Portfolio of Mohit Soni - Azure Cloud Engineer, DevOps Engineer, Full Stack Developer, and AI Specialist. Crafting next-generation cloud architectures and intelligent web experiences."
+              "description": "Personal Portfolio of Mohit Swarnkar - Azure Cloud Engineer, DevOps Engineer, Full Stack Developer, and AI Specialist. Crafting next-generation cloud architectures and intelligent web experiences."
             })
           }}
         />

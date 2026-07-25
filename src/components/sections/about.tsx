@@ -61,7 +61,7 @@ export default function About() {
           Overview
         </h2>
         <h3 className="font-display mt-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-          Who is Mohit Soni?
+          Who is Mohit Swarnkar?
         </h3>
         <div className="mt-4 h-1 w-12 bg-gradient-to-r from-accent to-primary rounded-full mx-auto md:mx-0" />
       </div>

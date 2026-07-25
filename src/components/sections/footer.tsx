@@ -33,7 +33,7 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-end space-y-4">
           <div className="flex space-x-3">
             <a
-              href="https://github.com/mohitsoniai"
+              href="https://github.com/mohitswarnkar"
               target="_blank"
               rel="noreferrer"
               onMouseEnter={playHover}
@@ -80,7 +80,7 @@ export default function Footer() {
           </div>
 
           <p className="text-[10px] text-gray-500 font-semibold tracking-wide">
-            &copy; {new Date().getFullYear()} Mohit Soni. All rights reserved.
+            &copy; {new Date().getFullYear()} Mohit Swarnkar. All rights reserved.
           </p>
         </div>
       </div>

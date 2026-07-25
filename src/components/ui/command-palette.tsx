@@ -45,7 +45,7 @@ export default function CommandPalette() {
     { id: "mute", title: isMuted ? "Unmute Sound Effects" : "Mute Sound Effects", category: "System", icon: isMuted ? Volume2 : VolumeX, action: () => { toggleMute(); playClick(); } },
     { id: "confetti", title: "Trigger Confetti Rain (Easter Egg)", category: "Easter Egg", icon: Sparkles, action: () => triggerConfetti() },
     { id: "resume", title: "Download PDF Resume", category: "Resources", icon: Download, action: () => openResume() },
-    { id: "github", title: "Visit GitHub Profile", category: "Resources", icon: FaGithub, action: () => window.open("https://github.com/mohitsoniai", "_blank") },
+    { id: "github", title: "Visit GitHub Profile", category: "Resources", icon: FaGithub, action: () => window.open("https://github.com/mohitswarnkar", "_blank") },
   ];
 
   const filteredCommands = commands.filter((cmd) =>
