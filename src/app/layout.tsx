@@ -23,9 +23,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mohit Swarnkar | Azure Cloud, DevOps & Full Stack Engineer",
-  description: "Personal Portfolio of Mohit Swarnkar - Azure Cloud Engineer, DevOps Engineer, Full Stack Developer, and AI Specialist. Crafting next-generation cloud architectures and intelligent web experiences.",
+  title: "Mohit Soni | Azure Cloud, DevOps & Full Stack Engineer",
+  description: "Personal Portfolio of Mohit Soni - Azure Cloud Engineer, DevOps Engineer, Full Stack Developer, and AI Specialist. Crafting next-generation cloud architectures and intelligent web experiences.",
   keywords: [
+    "Mohit Soni",
+    "Mohit Soni AI",
+    "Mohit Soni Portfolio",
     "Mohit Swarnkar",
     "Azure Cloud Engineer",
     "DevOps Engineer",
@@ -36,21 +39,21 @@ export const metadata: Metadata = {
     "Terraform IaC",
     "Next.js Portfolio",
   ],
-  authors: [{ name: "Mohit Swarnkar" }],
-  creator: "Mohit Swarnkar",
+  authors: [{ name: "Mohit Soni" }],
+  creator: "Mohit Soni",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://mohitswarnkar.dev",
-    title: "Mohit Swarnkar | Azure Cloud & DevOps Architect",
+    url: "https://mohit-s-portfolio.vercel.app",
+    title: "Mohit Soni | Azure Cloud & DevOps Architect",
     description: "Architecting enterprise cloud scaling, automated CI/CD infrastructures, and immersive web platforms.",
-    siteName: "Mohit Swarnkar Portfolio",
+    siteName: "Mohit Soni Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mohit Swarnkar | Azure Cloud & DevOps Architect",
+    title: "Mohit Soni | Azure Cloud & DevOps Architect",
     description: "Architecting enterprise cloud scaling, automated CI/CD infrastructures, and immersive web platforms.",
-    creator: "@mohitswarnkar",
+    creator: "@mohitsoniai",
   },
   robots: {
     index: true,
@@ -69,6 +72,27 @@ export default function RootLayout({
       className={`${spaceGrotesk.variable} ${inter.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full bg-background text-foreground selection:bg-accent/30 selection:text-white flex flex-col font-sans">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Mohit Soni",
+              "url": "https://mohit-s-portfolio.vercel.app",
+              "sameAs": [
+                "https://github.com/mohitsoniai",
+                "https://linkedin.com/in/mohitswarnkar"
+              ],
+              "jobTitle": "Azure Cloud & DevOps Engineer",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Parul University"
+              },
+              "description": "Personal Portfolio of Mohit Soni - Azure Cloud Engineer, DevOps Engineer, Full Stack Developer, and AI Specialist. Crafting next-generation cloud architectures and intelligent web experiences."
+            })
+          }}
+        />
         <LenisProvider>
           <AuroraBg />
           <CanvasParticles />

@@ -74,7 +74,7 @@ export default function GitHubSection() {
                   <div className="flex items-center space-x-2 mb-3 text-accent">
                     <BookOpen className="h-4 w-4" />
                     <a
-                      href="https://github.com/mohitswarnkar"
+                      href="https://github.com/mohitsoniai"
                       target="_blank"
                       rel="noreferrer"
                       className="text-xs font-bold text-white hover:text-accent tracking-wide uppercase transition-colors"

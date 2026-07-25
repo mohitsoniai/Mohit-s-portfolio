@@ -68,7 +68,7 @@ export default function Hero() {
             >
               Hi, I&apos;m{" "}
               <span className="bg-gradient-to-r from-accent via-primary to-secondary bg-clip-text text-transparent">
-                Mohit Swarnkar
+                Mohit Soni
               </span>
             </motion.h1>
 
@@ -128,7 +128,7 @@ export default function Hero() {
 
             <div className="flex space-x-2 mt-1 sm:mt-0">
               <a
-                href="https://github.com/mohitswarnkar"
+                href="https://github.com/mohitsoniai"
                 target="_blank"
                 rel="noreferrer"
                 onMouseEnter={playHover}

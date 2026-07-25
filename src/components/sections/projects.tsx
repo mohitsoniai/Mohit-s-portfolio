@@ -160,7 +160,7 @@ export default function Projects() {
           title="WISE"
           description="AI-powered Chrome extension designed to scan login gateways and audit URL anomalies for automated phishing defense."
           tags={["Python", "FastAPI", "Gemini AI", "Chrome Extension", "VirusTotal API"]}
-          githubUrl="https://github.com/mohitswarnkar"
+          githubUrl="https://github.com/mohitsoniai"
           liveUrl="#"
           glowColor="rgba(0, 229, 255, 0.15)"
         >
@@ -191,7 +191,7 @@ export default function Projects() {
           title="AI Mental Health Dashboard"
           description="Mental health monitoring system using Azure AI Language cognitive APIs to process sentiment logs and render emotion analytics."
           tags={["Azure AI", "Python", "React", "NLP", "Cognitive Services"]}
-          githubUrl="https://github.com/mohitswarnkar"
+          githubUrl="https://github.com/mohitsoniai"
           liveUrl="#"
           glowColor="rgba(139, 92, 246, 0.15)"
         >
@@ -225,7 +225,7 @@ export default function Projects() {
           title="Gold & Silver Tracker"
           description="Finance tracking application supporting real-time metal cost indexes, portfolio valuations, and interactive price-spread metrics."
           tags={["React Native", "Figma Design", "Tailwind CSS", "Market API"]}
-          githubUrl="https://github.com/mohitswarnkar"
+          githubUrl="https://github.com/mohitsoniai"
           liveUrl="#"
           glowColor="rgba(37, 99, 235, 0.15)"
         >

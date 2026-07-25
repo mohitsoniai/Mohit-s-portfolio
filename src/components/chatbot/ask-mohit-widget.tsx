@@ -101,7 +101,7 @@ export default function AskMohitWidget() {
 
     // Experience
     if (q.includes("experience") || q.includes("work") || q.includes("job") || q.includes("parul")) {
-      return "Mohit Swarnkar works as a **Cloud & DevOps Engineer** at **Parul University**.\n\n" +
+      return "Mohit Soni works as a **Cloud & DevOps Engineer** at **Parul University**.\n\n" +
              "• He containerizes legacy applications, configures AKS clusters, and orchestrates CI/CD pipelines.\n" +
              "• He applies security hardening using Zero Trust framework and Azure Policy audits.\n" +
              "• He implements logging and tracing systems via Azure Monitor and Application Insights.";
@@ -113,7 +113,7 @@ export default function AskMohitWidget() {
              "• **Email**: mohitswarnkar0@gmail.com\n" +
              "• **Location**: India (available for remote work / relocation)\n" +
              "• **LinkedIn**: [linkedin.com/in/mohitswarnkar](https://linkedin.com/in/mohitswarnkar)\n" +
-             "• **GitHub**: [github.com/mohitswarnkar](https://github.com/mohitswarnkar)\n\n" +
+             "• **GitHub**: [github.com/mohitsoniai](https://github.com/mohitsoniai)\n\n" +
              "Feel free to submit the contact form on this website. He responds quickly!";
     }
 
