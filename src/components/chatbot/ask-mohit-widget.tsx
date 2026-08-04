@@ -33,7 +33,7 @@ export default function AskMohitWidget() {
 
   const quickQuestions = [
     "What certifications do you have?",
-    "Tell me about project WISE",
+    "Tell me about project WADE",
     "What is your DevOps stack?",
     "How can I contact Mohit?",
   ];
@@ -53,27 +53,29 @@ export default function AskMohitWidget() {
     }
 
     // Projects
-    if (q.includes("wise") || q.includes("phishing") || q.includes("extension")) {
-      return "Project **WISE** is an AI-powered browser extension built for real-time phishing detection. It works by inspecting page features and scanning URLs using API endpoints. \n\n" +
-             "• **Tech Stack**: Python, FastAPI, Gemini AI, Groq, Chrome Extension scripts, VirusTotal API, WHOIS domain lookups, URLHaus threat list.\n" +
+    if (q.includes("wade") || q.includes("phishing") || q.includes("extension")) {
+      return "Project **WADE** (Web AI Defense Engine) is an AI-powered browser defense system. It works by inspecting page features and leveraging generative AI & Computer Vision to detect phishing portals in real-time.\n\n" +
+             "• **Tech Stack**: Python, FastAPI, Gemini AI, Chrome Extension, Computer Vision, VirusTotal API.\n" +
              "• **Core Benefit**: Instantly alerts users when they visit suspicious login portals, protecting against credentials theft.";
     }
 
-    if (q.includes("mental") || q.includes("dashboard") || q.includes("health")) {
-      return "The **AI Mental Health Dashboard** is a smart mental wellness analytics platform. It runs sentiment analysis and natural language processing to gauge emotional trends and give personalized feedback.\n\n" +
-             "• **Tech Stack**: Azure AI (Language & Cognitive Services), Python, React, NLP.";
+    if (q.includes("aura") || q.includes("ecommerce") || q.includes("e-commerce")) {
+      return "Project **AURA** is a premium, portfolio-grade full-stack E-Commerce SaaS application.\n\n" +
+             "• **Tech Stack**: React, Vite, TypeScript, NestJS, Prisma, PostgreSQL, Tailwind CSS.\n" +
+             "• **Core Benefit**: Integrates modern glassmorphism UI/UX designs, real-time checkout animations, order trackers, and a system analytics console.";
     }
 
-    if (q.includes("gold") || q.includes("silver") || q.includes("tracking") || q.includes("tracker")) {
-      return "The **Gold & Silver Tracking App** is a highly polished asset tracking system. It showcases live market charts, metal price fluctuations, and user portfolio valuations.\n\n" +
-             "• **Tech Stack**: React Native/React, Figma UX Design, Tailwind CSS, charts integrations.";
+    if (q.includes("taskflow") || q.includes("task") || q.includes("management") || q.includes("tracker")) {
+      return "Project **TaskFlow Pro** is an enterprise-grade full-stack project & task management SaaS platform.\n\n" +
+             "• **Tech Stack**: Next.js, Express.js, MongoDB, Socket.IO, Zustand, Framer Motion.\n" +
+             "• **Core Benefit**: Provides dynamic Kanban boards with drag & drop, interactive month calendars, and real-time updates via WebSockets.";
     }
 
     if (q.includes("project") || q.includes("portfolio") || q.includes("built")) {
       return "Mohit has created several advanced projects:\n\n" +
-             "1. **WISE**: AI phishing detection browser extension (FastAPI, Gemini AI, Groq).\n" +
-             "2. **AI Mental Health Dashboard**: Sentiment analysis tool leveraging Azure AI.\n" +
-             "3. **Gold & Silver Tracker**: Finance visualizer with interactive charts.\n\n" +
+             "1. **WADE**: Web AI Defense Engine browser defense system (Python, FastAPI, Gemini AI).\n" +
+             "2. **AURA**: Premium full-stack E-Commerce SaaS app (React, TypeScript, NestJS, PostgreSQL).\n" +
+             "3. **TaskFlow Pro**: Enterprise task management SaaS platform (Next.js, Express, MongoDB, Socket.IO).\n\n" +
              "Check out the **Projects** section for live links and source repositories.";
     }
 
@@ -113,7 +115,7 @@ export default function AskMohitWidget() {
              "• **Email**: mohitswarnkar0@gmail.com\n" +
              "• **Location**: India (available for remote work / relocation)\n" +
              "• **LinkedIn**: [linkedin.com/in/mohitswarnkar](https://linkedin.com/in/mohitswarnkar)\n" +
-             "• **GitHub**: [github.com/mohitswarnkar](https://github.com/mohitswarnkar)\n\n" +
+             "• **GitHub**: [github.com/mohitsoniai](https://github.com/mohitsoniai)\n\n" +
              "Feel free to submit the contact form on this website. He responds quickly!";
     }
 
@@ -125,7 +127,7 @@ export default function AskMohitWidget() {
     // Default Fallback
     return "I'm not fully sure about that, but I can tell you that Mohit has robust credentials in **Azure Cloud Engineering**, **DevOps**, and **Full Stack Development**. \n\n" +
            "Try asking about: \n" +
-           "• *WISE Browser Extension*\n" +
+           "• *WADE Browser Extension*\n" +
            "• *Azure Cloud Experience*\n" +
            "• *His SC-900 / DP-900 Certifications*\n" +
            "• *How to Contact Him*";

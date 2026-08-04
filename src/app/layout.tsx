@@ -78,7 +78,7 @@ export default function RootLayout({
               "name": "Mohit Swarnkar",
               "url": "https://mohitswarnkar.dev",
               "sameAs": [
-                "https://github.com/mohitswarnkar",
+                "https://github.com/mohitsoniai",
                 "https://linkedin.com/in/mohitswarnkar"
               ],
               "jobTitle": "Azure Cloud & DevOps Engineer",

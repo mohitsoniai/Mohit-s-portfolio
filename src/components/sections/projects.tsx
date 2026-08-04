@@ -88,7 +88,7 @@ function ProjectCard({
         <div>
           <h4 className="font-display text-xl font-bold text-white tracking-wide flex items-center gap-2">
             {title}
-            {title === "WISE" && <ShieldAlert className="h-4 w-4 text-accent animate-pulse" />}
+            {title === "WADE" && <ShieldAlert className="h-4 w-4 text-accent animate-pulse" />}
           </h4>
           <p className="text-xs text-gray-400 mt-2 leading-relaxed h-[60px] overflow-hidden">
             {description}
@@ -155,19 +155,19 @@ export default function Projects() {
 
       {/* Grid */}
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {/* Project 1: WISE */}
+        {/* Project 1: WADE */}
         <ProjectCard
-          title="WISE"
-          description="AI-powered Chrome extension designed to scan login gateways and audit URL anomalies for automated phishing defense."
+          title="WADE"
+          description="Web AI Defense Engine - Next-generation browser defense system powered by Generative AI and Computer Vision to block phishing."
           tags={["Python", "FastAPI", "Gemini AI", "Chrome Extension", "VirusTotal API"]}
-          githubUrl="https://github.com/mohitswarnkar"
+          githubUrl="https://github.com/mohitsoniai/WADE-AI-Defense"
           liveUrl="#"
           glowColor="rgba(0, 229, 255, 0.15)"
         >
-          {/* WISE Mockup UI */}
+          {/* WADE Mockup UI */}
           <div className="w-[90%] max-w-[280px] bg-gray-900 border border-white/10 rounded-xl p-4 shadow-xl text-left select-none">
             <div className="flex items-center justify-between border-b border-white/5 pb-2 mb-3">
-              <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">WISE Scan Panel</span>
+              <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">WADE Scan Panel</span>
               <span className="h-2 w-2 rounded-full bg-red-500 animate-ping" />
             </div>
             <div className="space-y-2">
@@ -186,87 +186,84 @@ export default function Projects() {
           </div>
         </ProjectCard>
 
-        {/* Project 2: AI Mental Health Dashboard */}
+        {/* Project 2: AURA */}
         <ProjectCard
-          title="AI Mental Health Dashboard"
-          description="Mental health monitoring system using Azure AI Language cognitive APIs to process sentiment logs and render emotion analytics."
-          tags={["Azure AI", "Python", "React", "NLP", "Cognitive Services"]}
-          githubUrl="https://github.com/mohitswarnkar"
+          title="AURA"
+          description="A premium full-stack E-Commerce SaaS application featuring real-time checkout animations, order trackers, and analytics dashboard."
+          tags={["React", "TypeScript", "NestJS", "Prisma", "PostgreSQL"]}
+          githubUrl="https://github.com/mohitsoniai/AURA"
           liveUrl="#"
           glowColor="rgba(139, 92, 246, 0.15)"
         >
-          {/* AI Mental Health Dashboard Mockup UI */}
-          <div className="w-[90%] max-w-[280px] bg-gray-900 border border-white/10 rounded-xl p-4 shadow-xl text-left select-none">
-            <div className="flex items-center justify-between mb-3">
-              <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Sentiment Telemetry</span>
-              <Sparkles className="h-3 w-3 text-secondary animate-pulse" />
+          {/* AURA Premium E-Commerce Mockup UI */}
+          <div className="w-[90%] max-w-[280px] bg-gradient-to-br from-indigo-950/60 to-purple-950/60 border border-white/10 rounded-xl p-4 shadow-xl text-left select-none backdrop-blur-sm">
+            <div className="flex items-center justify-between border-b border-white/5 pb-2 mb-3">
+              <span className="text-[10px] font-bold text-indigo-300 uppercase tracking-widest">AURA SaaS Checkout</span>
+              <Sparkles className="h-3.5 w-3.5 text-indigo-400 animate-pulse" />
             </div>
             
             <div className="space-y-3">
-              {/* Pulsing sentiment line */}
-              <div className="h-16 flex items-end justify-between px-2 gap-1 border-b border-white/5 pb-1">
-                <div className="w-4 bg-primary/20 h-[30%] rounded-t" />
-                <div className="w-4 bg-accent/40 h-[60%] rounded-t" />
-                <div className="w-4 bg-secondary h-[85%] rounded-t animate-pulse" />
-                <div className="w-4 bg-primary/30 h-[45%] rounded-t" />
-                <div className="w-4 bg-accent/50 h-[70%] rounded-t" />
+              {/* Credit Card Graphic */}
+              <div className="rounded-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-2.5 shadow-md text-white">
+                <div className="flex justify-between items-start">
+                  <div className="text-[7px] uppercase tracking-wider opacity-80">Premium Member</div>
+                  <span className="text-[8px] font-extrabold tracking-widest">AURA</span>
+                </div>
+                <div className="mt-2 text-xs font-mono tracking-widest">•••• •••• •••• 4820</div>
+                <div className="mt-1 flex justify-between items-center text-[7px]">
+                  <span className="opacity-80">MOHIT SWARNKAR</span>
+                  <span className="opacity-85">12/29</span>
+                </div>
               </div>
               
-              <div className="flex items-center justify-between text-[9px]">
-                <span className="text-gray-400">Emotion Trend:</span>
-                <span className="font-bold text-accent">92% positive</span>
+              <div className="flex items-center justify-between text-[9px] text-gray-300">
+                <span>Total Amount:</span>
+                <span className="font-bold text-white">$1,299.00</span>
               </div>
             </div>
           </div>
         </ProjectCard>
 
-        {/* Project 3: Gold & Silver Tracking App */}
+        {/* Project 3: TaskFlow Pro */}
         <ProjectCard
-          title="Gold & Silver Tracker"
-          description="Finance tracking application supporting real-time metal cost indexes, portfolio valuations, and interactive price-spread metrics."
-          tags={["React Native", "Figma Design", "Tailwind CSS", "Market API"]}
-          githubUrl="https://github.com/mohitswarnkar"
+          title="TaskFlow Pro"
+          description="Enterprise-grade full-stack project management SaaS platform featuring Kanban boards, monthly calendars, and real-time Socket.IO."
+          tags={["Next.js", "Express.js", "MongoDB", "Socket.IO", "Zustand", "Framer Motion"]}
+          githubUrl="https://github.com/mohitsoniai/TaskFlow-Pro"
           liveUrl="#"
           glowColor="rgba(37, 99, 235, 0.15)"
         >
-          {/* Gold & Silver Phone Mockup UI */}
-          <div className="relative w-[130px] h-[200px] bg-black border-4 border-gray-800 rounded-3xl overflow-hidden shadow-2xl flex flex-col justify-between p-3 select-none">
-            {/* Camera notch */}
-            <div className="absolute top-1 left-1/2 -translate-x-1/2 w-10 h-3 rounded-full bg-gray-800" />
-            
-            <div className="mt-4">
-              <div className="flex items-center justify-between text-[9px] text-gray-400">
-                <span>Gold Price</span>
-                <span className="text-green-400 flex items-center"><TrendingUp className="h-2 w-2 mr-0.5" />+1.4%</span>
+          {/* TaskFlow Pro Mockup UI */}
+          <div className="w-[90%] max-w-[280px] bg-gray-900 border border-white/10 rounded-xl p-4 shadow-xl text-left select-none">
+            <div className="flex items-center justify-between border-b border-white/5 pb-2 mb-3">
+              <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">TaskFlow Sprint</span>
+              <div className="flex space-x-1">
+                <span className="h-1.5 w-1.5 rounded-full bg-yellow-500" />
+                <span className="h-1.5 w-1.5 rounded-full bg-green-500" />
               </div>
-              <h5 className="text-xs font-extrabold text-white mt-0.5">$2,420.50<span className="text-[8px] text-gray-500 font-normal">/oz</span></h5>
             </div>
-
-            {/* Micro Chart SVG */}
-            <svg viewBox="0 0 100 50" className="w-full h-16 mt-2 overflow-visible">
-              <path
-                d="M0,45 Q15,42 30,25 T60,30 T90,5 L100,20"
-                fill="none"
-                stroke="#00E5FF"
-                strokeWidth="2"
-                className="animate-pulse"
-              />
-              <path
-                d="M0,45 Q15,42 30,25 T60,30 T90,5 L100,20 L100,50 L0,50 Z"
-                fill="url(#grad)"
-                opacity="0.15"
-              />
-              <defs>
-                <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
-                  <stop offset="0%" stopColor="#00E5FF" />
-                  <stop offset="100%" stopColor="#00E5FF" stopOpacity="0" />
-                </linearGradient>
-              </defs>
-            </svg>
-
-            <div className="border-t border-white/5 pt-2 flex justify-between items-center mt-2">
-              <Smartphone className="h-3 w-3 text-accent" />
-              <span className="text-[8px] text-gray-500">Live Telemetry</span>
+            
+            <div className="space-y-2.5">
+              {/* Kanban Column */}
+              <div className="space-y-1.5">
+                <div className="text-[9px] text-gray-500 font-bold uppercase">In Progress (2)</div>
+                <div className="rounded bg-white/5 border border-white/10 p-2 flex flex-col gap-1.5">
+                  <div className="flex justify-between items-start">
+                    <span className="text-[9px] font-bold text-white">Database Indexing</span>
+                    <span className="rounded bg-red-500/10 text-red-400 px-1 py-0.5 text-[7px] font-bold">High</span>
+                  </div>
+                  <div className="h-1 w-full bg-white/10 rounded-full overflow-hidden">
+                    <div className="h-full bg-primary rounded-full w-3/4" />
+                  </div>
+                </div>
+              </div>
+              
+              <div className="flex justify-between items-center text-[9px] border-t border-white/5 pt-2">
+                <span className="text-gray-400">Socket Connections:</span>
+                <span className="text-green-400 font-bold flex items-center">
+                  <span className="h-1.5 w-1.5 rounded-full bg-green-400 mr-1 animate-pulse" /> Active
+                </span>
+              </div>
             </div>
           </div>
         </ProjectCard>

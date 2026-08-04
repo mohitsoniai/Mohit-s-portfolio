@@ -33,7 +33,7 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-end space-y-4">
           <div className="flex space-x-3">
             <a
-              href="https://github.com/mohitswarnkar"
+              href="https://github.com/mohitsoniai"
               target="_blank"
               rel="noreferrer"
               onMouseEnter={playHover}

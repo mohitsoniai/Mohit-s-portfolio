@@ -128,7 +128,7 @@ export default function Hero() {
 
             <div className="flex space-x-2 mt-1 sm:mt-0">
               <a
-                href="https://github.com/mohitswarnkar"
+                href="https://github.com/mohitsoniai"
                 target="_blank"
                 rel="noreferrer"
                 onMouseEnter={playHover}

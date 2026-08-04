@@ -35,7 +35,7 @@ export default function Testimonials() {
       name: "Shruti Rao",
       role: "Senior Full Stack Engineer",
       company: "AI Cognitive Labs",
-      text: "Working with Mohit on the WISE browser extension project was a blast. He handled the FastAPI endpoints and LLM integration, delivering a lightning-fast security tool that exceeded expectations.",
+      text: "Working with Mohit on the WADE browser extension project was a blast. He handled the FastAPI endpoints and LLM integration, delivering a lightning-fast security tool that exceeded expectations.",
       rating: 5,
       glowColor: "rgba(37, 99, 235, 0.1)",
     },

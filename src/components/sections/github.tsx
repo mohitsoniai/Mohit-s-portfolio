@@ -29,20 +29,20 @@ export default function GitHubSection() {
 
   const pinnedRepos = [
     {
-      name: "wise-phishing-detection",
-      desc: "AI-powered browser extension built with FastAPI, Gemini, and Groq to detect phishing vectors in real-time.",
+      name: "WADE-AI-Defense",
+      desc: "Web AI Defense Engine 🛡️ - Next-generation browser defense system powered by Generative AI and Computer Vision.",
       lang: "Python",
       langColor: "bg-[#3572A5]",
       stars: 42,
       forks: 11,
     },
     {
-      name: "azure-iac-terraform",
-      desc: "Declarative infrastructure as code templates mapping VNet, AKS, Key Vault, and Application Insights routing topologies.",
-      lang: "HCL / Terraform",
-      langColor: "bg-[#7B42BC]",
-      stars: 68,
-      forks: 18,
+      name: "AURA",
+      desc: "A premium full-stack E-Commerce web application built with React, Vite, TypeScript, NestJS, Prisma, and PostgreSQL.",
+      lang: "TypeScript",
+      langColor: "bg-[#3178c6]",
+      stars: 58,
+      forks: 15,
     },
   ];
 
@@ -74,7 +74,7 @@ export default function GitHubSection() {
                   <div className="flex items-center space-x-2 mb-3 text-accent">
                     <BookOpen className="h-4 w-4" />
                     <a
-                      href="https://github.com/mohitswarnkar"
+                      href={`https://github.com/mohitsoniai/${repo.name}`}
                       target="_blank"
                       rel="noreferrer"
                       className="text-xs font-bold text-white hover:text-accent tracking-wide uppercase transition-colors"
